@@ -123,7 +123,7 @@ Plugin 'bling/vim-airline'
 set laststatus=2
 
 " command-T, 输入:CommandT可进入文件快速定位功能
-Plugin 'wincent/command-t'
+" Plugin 'wincent/command-t'
 " sass highlight
 Plugin 'JulesWang/css.vim'
 Plugin 'cakebaker/scss-syntax.vim'
