@@ -137,6 +137,15 @@ Plugin 'mileszs/ack.vim'
 
 " Emmet.vim自动补全功能
 Plugin 'vim-scripts/Emmet.vim'
+
+" vim-easy-align 对齐插件
+Plugin 'junegunn/vim-easy-align'
+" Start interactive EasyAlign in visual mode (e.g. vip<Enter>)
+vmap <Enter> <Plug>(EasyAlign)
+
+" Start interactive EasyAlign for a motion/text object (e.g. gaip)
+nmap ga <Plug>(EasyAlign)
+
 let g:user_emmet_settings = {
   \  'indentation' : '  ',
   \  'perl' : {
