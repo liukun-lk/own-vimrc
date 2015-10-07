@@ -146,6 +146,14 @@ vmap <Enter> <Plug>(EasyAlign)
 " Start interactive EasyAlign for a motion/text object (e.g. gaip)
 nmap ga <Plug>(EasyAlign)
 
+"自动补全单引号、双引号、括号等
+Plugin 'Raimondi/delimitMate'
+
+" 快速注释/解开注释
+Plugin 'scrooloose/nerdcommenter'
+" 注释的时候自动加个空格, 强迫症必配
+let g:NERDSpaceDelims=1
+
 let g:user_emmet_settings = {
   \  'indentation' : '  ',
   \  'perl' : {
