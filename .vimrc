@@ -101,6 +101,8 @@ Plugin 'kchmck/vim-coffee-script'
 autocmd BufNewFile,BufRead *.coffee set filetype=coffee
 " basic dependence
 Plugin 'L9'
+" 自动补全
+Plugin 'Shougo/neocomplete.vim'
 " slim template support, Syntax highlighting for VIM
 Plugin 'slim-template/vim-slim.git'
 " hack filetype for slim
